@@ -34,36 +34,3 @@ const biggestSnoozer = snoozetimes.filter((guard) => guard.sleep === longest)
 console.log(biggestSnoozer)
 
 })
-//    let date = arr[0].slice(0, 5)
-//    let guard 
-//    const objArr = []
-//    const newObj = arr.forEach((entry, index) => {
-
-// const time = entry.slice(6, 11)
-// let log = entry.slice(13)
-// if(entry.includes('Guard')){
-// guard = entry.slice(20, 24)
-// if(!date.match(entry.slice(0, 5))){
-//     date = entry.slice(0,5)
-//     objArr.push({ date: date,
-//         time: time, log: log, guard: guard})
-//     }
-// }
-// else{
-//     objArr.push({ date: date,
-//         time: time, log: log, guard: guard})}
-//     })
-//     const guardArr = []
-//     objArr.forEach((item) => {
-// const guardNum = +item.guard.split(' ')[0]
-// if (!guardArr.includes(guardNum)){
-//     guardArr.push(guardNum)
-// }
-// })
-// const sortedGuards = guardArr.sort((a, b) => a-b)
-// const blah = []
-// sortedGuards.map((guard) => {
-//    const guardsArr = objArr.filter((obj) => +obj.guard.split(' ') === guard)
-//    blah.push(guardsArr)
-// })
-// })  
