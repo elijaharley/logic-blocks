@@ -1,5 +1,25 @@
 {
+  "name": "logic-blocks",
+  "description": "You've sneaked into another supply closet - this time, it's across from the prototype suit manufacturing lab. You need to sneak inside and fix the issues with the suit, but there's a guard stationed outside the lab, so this is as close as you can safely get.",
+  "version": "1.0.0",
+  "main": "consecutiveNums.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elijaharley/logic-blocks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elijaharley/logic-blocks/issues"
+  },
+  "homepage": "https://github.com/elijaharley/logic-blocks#readme",
   "dependencies": {
     "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
   }
 }
